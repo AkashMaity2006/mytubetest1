@@ -16,7 +16,7 @@ form{
 body{
     background-color: black;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
     #menuBoxDiv{
         display: none;
     }
@@ -84,7 +84,7 @@ body{
         width:70%;
     }
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-device-width:600px){
     #headerSearchDiv{
         display:none;
     }
